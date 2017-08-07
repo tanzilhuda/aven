@@ -1,0 +1,59 @@
+/*Must use the following 'meta' tag in 'head' section of 'html' file:
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+*/
+
+
+/*Desktop : Medium : 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	
+}
+
+/*Tablet layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+	#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {padding: 30px 10px;}	
+	.icon-title::before {display: none;}
+	.icon-title {margin-left: 0;}	
+	.features {margin: 110px 0 -25px;}
+	.team-inner {padding: 0 5px 10px;transform: rotateX(90deg);}
+	.team-inner p {font-size: 10px;line-height: 18px; padding: 0;}
+	.team-inner.text-center > h3 { font-size: 20px;padding: 0; margin: 10px 0 5px;}
+	.section8 h2 {font-size: 30px;line-height: 30px;}
+	.section8 p {line-height: 18px;}
+	.service-top {margin: 0 30px;}
+
+}
+
+
+
+
+/*Mobile layout: 320px. */
+@media only screen and (max-width: 767px){
+	
+	#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {padding: 10px 20px;}
+	.features {margin:  50px;}
+	.counter p {margin-bottom: 50px;}
+	.team-inner {transform: rotateX(0deg);margin-top: 0;padding: 0 35px 10px;}
+	.team-box {margin-bottom: 210px;}
+	.working-circle {margin-bottom: 70px;}
+	.footer-icon {float: none;text-align: center;}
+	.section16 p {padding-top: 10px; margin-left: 0}
+	.single-point {display: none;}
+	.copyright{text-align: center;}
+	.pricing-table {margin-bottom: 30px;}
+	.service-top {margin:  10px 0 25px ;}
+	.section8 h2 {font-size: 25px;line-height: 30px;}
+	.section8 p {line-height: 18px;}
+	#top-slider h3 {font-size: 25px;}
+	#top-slider p {font-size: 15px;}
+
+
+
+}
+
+/*Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.team-box {margin-bottom: 170px;}
+	#top-slider h3 {font-size: 35px;}
+	#top-slider p {font-size: 20px;}
+}
